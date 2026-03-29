@@ -1,0 +1,507 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ BaseDelta {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "FOB Delta"
+    m_sBaseNameUpper "FOB DELTA"
+    m_aWhiteList {
+     "Main Base North"
+     "MSR FOB 1"
+     "Eastern Lumbermill"
+    }
+    m_aWhiteListAntenna {
+     "Main Base North"
+     "MSR FOB 1"
+     "Eastern Lumbermill"
+    }
+   }
+  }
+  coords 8880.716 201.413 6517.859
+  angles 0 180 0
+ }
+ BaseEasternLumbermill {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Eastern Lumbermill"
+    m_sBaseNameUpper "EASTERN LUMBERMILL"
+    m_aWhiteList {
+     "FOB Delta"
+     "Serhiivka Manor"
+     "Industrial Zone"
+     "Apartment Complex"
+    }
+    m_aWhiteListAntenna {
+     "FOB Delta"
+     "Serhiivka Manor"
+     "Industrial Zone"
+     "Apartment Complex"
+    }
+   }
+  }
+  coords 8293.131 170.781 5398.702
+  angles 0 -89.864 0
+ }
+ BaseFloodgate {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Floodgate"
+    m_sBaseNameUpper "FLOODGATE"
+    m_aWhiteList {
+     "Main Base South"
+     "Lakewood"
+     "FOB Alpha"
+     "FOB Charlie"
+    }
+    m_aWhiteListAntenna {
+     "Main Base South"
+     "Lakewood"
+     "FOB Alpha"
+     "FOB Charlie"
+    }
+   }
+  }
+  coords 4936.205 150.386 2928.505
+  angles 0 150 0
+ }
+ BaseApartmentComplex {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Apartment Complex"
+    m_sBaseNameUpper "APARTMENT COMPLEX"
+    m_aWhiteList {
+     "Gas Station"
+     "Lakewood"
+     "Serhiivka Manor"
+     "FOB Charlie"
+     "Eastern Lumbermill"
+     "FOB Foxtrot"
+    }
+    m_aWhiteListAntenna {
+     "Gas Station"
+     "Serhiivka Manor"
+     "Lakewood"
+     "FOB Charlie"
+     "Eastern Lumbermill"
+     "FOB Foxtrot"
+    }
+   }
+  }
+  coords 5442.966 159.406 4614.657
+  angles 0 137.441 0
+ }
+ BaseCharlie {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "FOB Charlie"
+    m_sBaseNameUpper "FOB CHARLIE"
+    m_aWhiteList {
+     "Serhiivka Manor"
+     "Floodgate"
+     "Lakewood"
+     "Main Base South"
+     "Apartment Complex"
+    }
+    m_aWhiteListAntenna {
+     "Serhiivka Manor"
+     "Floodgate"
+     "Lakewood"
+     "Main Base South"
+     "Apartment Complex"
+    }
+   }
+  }
+  coords 6260.496 147.57 2949.927
+  angles 0 -165 0
+ }
+ BaseEcho {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "FOB Echo"
+    m_sBaseNameUpper "FOB ECHO"
+    m_aWhiteList {
+     "FOB Foxtrot"
+     "Fort Bastion"
+     "Power Station"
+     "Western Farm"
+    }
+    m_aWhiteListAntenna {
+     "FOB Foxtrot"
+     "Fort Bastion"
+     "Power Station"
+     "Western Farm"
+    }
+   }
+  }
+  coords 4205.104 184.437 7062.883
+  angles 0 90 0
+ }
+ BaseFortBastion {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Fort Bastion"
+    m_sBaseNameUpper "FORT BASTION"
+    m_aWhiteList {
+     "Main Base North"
+     "MSR FOB 1"
+     "Industrial Zone"
+     "FOB Echo"
+    }
+    m_aWhiteListAntenna {
+     "Main Base North"
+     "MSR FOB 1"
+     "Industrial Zone"
+     "FOB Echo"
+    }
+   }
+  }
+  coords 5405.931 180.375 8250.213
+  angles 0.235 14.248 0.354
+ }
+ BaseFoxtrot {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "FOB Foxtrot"
+    m_sBaseNameUpper "FOB FOXTROT"
+    m_aWhiteList {
+     "FOB Echo"
+     "Industrial Zone"
+     "Gas Station"
+     "Apartment Complex"
+    }
+    m_aWhiteListAntenna {
+     "FOB Echo"
+     "Industrial Zone"
+     "Gas Station"
+     "Apartment Complex"
+    }
+   }
+  }
+  coords 5365.022 164.409 5823.897
+  angles 0 -70 0
+ }
+ BaseGasStation {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Gas Station"
+    m_sBaseNameUpper "GAS STATION"
+    m_aWhiteList {
+     "FOB Foxtrot"
+     "Apartment Complex"
+     "Lakewood"
+     "Airfield"
+     "Western Farm"
+    }
+    m_aWhiteListAntenna {
+     "FOB Foxtrot"
+     "Apartment Complex"
+     "Lakewood"
+     "Airfield"
+     "Western Farm"
+    }
+   }
+  }
+  coords 4668.63 149.155 5248.507
+  angles 0 137.254 0
+ }
+ BaseIndustrialZone {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Industrial Zone"
+    m_sBaseNameUpper "INDUSTRIAL ZONE"
+    m_aWhiteList {
+     "Eastern Lumbermill"
+     "Fort Bastion"
+     "MSR FOB 1"
+     "FOB Foxtrot"
+    }
+    m_aWhiteListAntenna {
+     "Eastern Lumbermill"
+     "Fort Bastion"
+     "MSR FOB 1"
+     "FOB Foxtrot"
+    }
+   }
+  }
+  coords 6472.21 184.812 6679.69
+ }
+ BaseLakewood {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Lakewood"
+    m_sBaseNameUpper "LAKEWOOD"
+    m_aWhiteList {
+     "Floodgate"
+     "Apartment Complex"
+     "FOB Alpha"
+     "FOB Charlie"
+     "Airfield"
+     "Gas Station"
+    }
+    m_aWhiteListAntenna {
+     "Floodgate"
+     "Apartment Complex"
+     "FOB Alpha"
+     "FOB Charlie"
+     "Airfield"
+     "Gas Station"
+    }
+   }
+  }
+  coords 4904.532 150.869 3511.237
+  angles 0 -120 0
+ }
+ BaseMSR_1 {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "MSR FOB 1"
+    m_sBaseNameUpper "MSR FOB 1"
+    m_aWhiteList {
+     "Main Base North"
+     "FOB Delta"
+     "Fort Bastion"
+     "Industrial Zone"
+    }
+    m_aWhiteListAntenna {
+     "Main Base North"
+     "FOB Delta"
+     "Fort Bastion"
+     "Industrial Zone"
+    }
+   }
+  }
+  coords 7654.279 187.848 7583.813
+  angles 0 90 0
+ }
+ BasePowerStation {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Power Station"
+    m_sBaseNameUpper "POWER STATION"
+    m_aWhiteList {
+     "Western Farm"
+     "FOB Echo"
+     "Airfield"
+    }
+    m_aWhiteListAntenna {
+     "Western Farm"
+     "FOB Echo"
+     "Airfield"
+    }
+   }
+  }
+  coords 2319.985 153.094 6414.693
+  angles 0 -164.838 0
+ }
+ BaseSerhiivkaManor {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Serhiivka Manor"
+    m_sBaseNameUpper "SERHIIVKA MANOR"
+    m_aWhiteList {
+     "FOB Charlie"
+     "Eastern Lumbermill"
+     "Apartment Complex"
+    }
+    m_aWhiteListAntenna {
+     "FOB Charlie"
+     "Eastern Lumbermill"
+     "Apartment Complex"
+    }
+   }
+  }
+  coords 8225.018 186.031 3635.816
+  angles 0 -1.156 0
+ }
+ BaseWesternFarm {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Western Farm"
+    m_sBaseNameUpper "WESTERN FARM"
+    m_aWhiteList {
+     "Power Station"
+     "Airfield"
+     "FOB Echo"
+     "Gas Station"
+    }
+    m_aWhiteListAntenna {
+     "Power Station"
+     "Airfield"
+     "FOB Echo"
+     "Gas Station"
+    }
+   }
+  }
+  coords 3612.681 151.786 5864.498
+ }
+ BaseAlpha {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "FOB Alpha"
+    m_sBaseNameUpper "FOB ALPHA"
+    m_aWhiteList {
+     "Main Base South"
+     "Airfield"
+     "Lakewood"
+     "Floodgate"
+    }
+    m_aWhiteListAntenna {
+     "Main Base South"
+     "Airfield"
+     "Lakewood"
+     "Floodgate"
+    }
+   }
+  }
+  coords 2827.836 126.506 3399.445
+  angles 0 180 0
+ }
+ BaseAirfield {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Airfield"
+    m_sBaseNameUpper "AIRFIELD"
+    m_aWhiteList {
+     "FOB Alpha"
+     "Power Station"
+     "Western Farm"
+     "Lakewood"
+     "Gas Station"
+    }
+    m_aWhiteListAntenna {
+     "FOB Alpha"
+     "Power Station"
+     "Western Farm"
+     "Lakewood"
+     "Gas Station"
+    }
+   }
+  }
+  coords 3520.316 157.781 4241.394
+  angles 0 -180 0
+ }
+}
