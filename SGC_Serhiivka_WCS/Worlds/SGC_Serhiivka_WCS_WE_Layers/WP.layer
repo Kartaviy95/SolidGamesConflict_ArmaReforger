@@ -1,0 +1,355 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ BaseSuperFOB {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Super FOB"
+    m_sBaseNameUpper "SUPER FOB"
+    m_aWhiteList {
+     "Industrial Zone"
+     "Apartment Complex"
+     "Serhiivka Manor"
+     "Eastern Lumbermill"
+    }
+    m_aWhiteListAntenna {
+     "Industrial Zone"
+     "Apartment Complex"
+     "Serhiivka Manor"
+     "Eastern Lumbermill"
+    }
+   }
+  }
+  coords 6405.725 161.937 5373.989
+  angles 0 -171.739 0
+ }
+ BaseWheatfield {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Wheatfield"
+    m_sBaseNameUpper "WHEATFIELD"
+    m_aWhiteList {
+     "Gas Station"
+     "Industrial Zone"
+     "The Granary"
+     "Power Station"
+    }
+    m_aWhiteListAntenna {
+     "Gas Station"
+     "Industrial Zone"
+     "The Granary"
+     "Power Station"
+    }
+   }
+  }
+  coords 4807.46 160.448 6065.916
+  angles 0 149.933 0
+ }
+ BaseTheGranary {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "The Granary"
+    m_sBaseNameUpper "THE GRANARY"
+    m_aWhiteList {
+     "Wheatfield"
+     "Airfield"
+     "Power Station"
+     "Gas Station"
+    }
+    m_aWhiteListAntenna {
+     "Wheatfield"
+     "Airfield"
+     "Power Station"
+     "Gas Station"
+    }
+   }
+  }
+  coords 3966.405 141.892 5424.572
+  angles 0 52.109 0
+ }
+ BaseLakewood {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Lakewood"
+    m_sBaseNameUpper "LAKEWOOD"
+    m_aWhiteList {
+     "Gas Station"
+     "Airfield"
+     "Apartment Complex"
+     "Serhiivka Manor"
+    }
+    m_aWhiteListAntenna {
+     "Gas Station"
+     "Airfield"
+     "Apartment Complex"
+     "Serhiivka Manor"
+    }
+   }
+  }
+  coords 4915.082 150.869 3513.636
+  angles 0 -120 0
+ }
+ BaseSerhiivkaManor {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Serhiivka Manor"
+    m_sBaseNameUpper "SERHIIVKA MANOR"
+    m_aWhiteList {
+     "Apartment Complex"
+     "Super FOB"
+     "Eastern Lumbermill"
+     "Lakewood"
+    }
+    m_aWhiteListAntenna {
+     "Apartment Complex"
+     "Super FOB"
+     "Eastern Lumbermill"
+     "Lakewood"
+    }
+   }
+  }
+  coords 8235.568 186.031 3638.215
+  angles 0 -1.156 0
+ }
+ BasePowerStation {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Power Station"
+    m_sBaseNameUpper "POWER STATION"
+    m_aWhiteList {
+     "Airfield"
+     "Wheatfield"
+     "The Granary"
+     "Main Base West"
+    }
+    m_aWhiteListAntenna {
+     "Airfield"
+     "Wheatfield"
+     "The Granary"
+     "Main Base West"
+    }
+   }
+  }
+  coords 2330.535 153.094 6417.092
+  angles 0 -164.838 0
+ }
+ BaseFortBastion {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 7500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Fort Bastion"
+    m_sBaseNameUpper "FORT BASTION"
+    m_aWhiteList {
+     "Main Base West"
+     "Industrial Zone"
+     "Main Base East"
+    }
+    m_aWhiteListAntenna {
+     "Airfield"
+     "Serhiivka Manor"
+     "Apartment Complex"
+     "Gas Station"
+     "Industrial Zone"
+     "Lakewood"
+     "Super FOB"
+     "The Granary"
+     "Wheatfield"
+    }
+   }
+  }
+  coords 5416.48 180.375 8252.612
+  angles 0.235 14.248 0.354
+ }
+ BaseIndustrialZone {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Industrial Zone"
+    m_sBaseNameUpper "INDUSTRIAL ZONE"
+    m_aWhiteList {
+     "Super FOB"
+     "Wheatfield"
+     "Fort Bastion"
+    }
+    m_aWhiteListAntenna {
+     "Super FOB"
+     "Wheatfield"
+     "Fort Bastion"
+    }
+   }
+  }
+  coords 6482.76 184.812 6682.089
+ }
+ BaseGasStation {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Gas Station"
+    m_sBaseNameUpper "GAS STATION"
+    m_aWhiteList {
+     "Apartment Complex"
+     "Lakewood"
+     "Airfield"
+     "The Granary"
+     "Wheatfield"
+    }
+    m_aWhiteListAntenna {
+     "Apartment Complex"
+     "Lakewood"
+     "Airfield"
+     "The Granary"
+     "Wheatfield"
+    }
+   }
+  }
+  coords 4681.499 149.125 5252.587
+  angles 0 137.254 0
+ }
+ BaseEasternLumbermill {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Eastern Lumbermill"
+    m_sBaseNameUpper "EASTERN LUMBERMILL"
+    m_aWhiteList {
+     "Main Base East"
+     "Serhiivka Manor"
+     "Super FOB"
+    }
+    m_aWhiteListAntenna {
+     "Main Base East"
+     "Serhiivka Manor"
+     "Super FOB"
+    }
+   }
+  }
+  coords 8303.682 170.781 5401.101
+  angles 0 -89.864 0
+ }
+ BaseApartmentComplex {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Apartment Complex"
+    m_sBaseNameUpper "APARTMENT COMPLEX"
+    m_aWhiteList {
+     "Lakewood"
+     "Super FOB"
+     "Serhiivka Manor"
+     "Gas Station"
+    }
+    m_aWhiteListAntenna {
+     "Lakewood"
+     "Super FOB"
+     "Serhiivka Manor"
+     "Gas Station"
+    }
+   }
+  }
+  coords 5453.516 159.406 4617.056
+  angles 0 137.441 0
+ }
+ BaseAirfield {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Airfield"
+    m_sBaseNameUpper "AIRFIELD"
+    m_aWhiteList {
+     "Gas Station"
+     "The Granary"
+     "Lakewood"
+    }
+    m_aWhiteListAntenna {
+     "Gas Station"
+     "The Granary"
+     "Lakewood"
+    }
+   }
+  }
+  coords 3520.599 157.781 4240.325
+  angles 0 -89.377 0
+ }
+}
