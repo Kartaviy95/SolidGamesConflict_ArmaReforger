@@ -57,3 +57,11 @@ $grp KF_SafezoneTriggerEntity : "{17B60DA8BC08A5DF}Prefabs/Systems/ConflictSafez
   BoxMaxs 1400 500 3000
  }
 }
+$grp CIE_HQDef : "{C65EDFFAC3A2B5C5}Prefabs/HQ Shield/HQ_Def_Spawn.et" {
+ East_Spawn {
+  coords 10017.668 73.937 6916.995
+ }
+ West_Spawn {
+  coords 226.16 19.593 7792.743
+ }
+}
