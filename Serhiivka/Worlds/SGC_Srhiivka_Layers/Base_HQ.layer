@@ -1,0 +1,59 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ West_Base {
+  components {
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 5000
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3000
+     }
+    }
+    m_bIsSource 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_bIsSupplyHub 1
+    m_sBaseName "Западная База HQ"
+    m_sMapLocationName "Западная База"
+    m_eSupplyRequestExecutionPriority HIGH
+   }
+  }
+  coords 223.77 19.594 7838.313
+ }
+ East_Base {
+  components {
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 5000
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3200
+     }
+    }
+    m_bIsSource 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_bIsSupplyHub 1
+    m_sBaseName "Восточная База HQ"
+    m_eSupplyRequestExecutionPriority HIGH
+   }
+  }
+  coords 9954.764 73.937 6902.619
+ }
+}
+$grp KF_SafezoneTriggerEntity : "{17B60DA8BC08A5DF}Prefabs/Systems/ConflictSafezone.et" {
+ East_SafeZone {
+  coords 9978.864 73.938 6888.572
+  BoxMins -1500 -50 -5000
+  BoxMaxs 1000 500 4000
+ }
+ West_SafeZone {
+  coords 233.316 19.594 7824.788
+  BoxMins -500 -50 -4000
+  BoxMaxs 1400 500 3000
+ }
+}

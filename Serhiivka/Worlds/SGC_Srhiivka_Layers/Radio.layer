@@ -1,0 +1,17 @@
+GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+ components {
+  SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+   Transceivers {
+    RelayTransceiver "{5C727AD73024FB39}" {
+     "Transmitting Range" 5000
+    }
+   }
+  }
+ }
+ coords 4682.263 39.263 5125.047
+ angles 0 -12.924 0
+}
+StaticModelEntity : "{5A5C3D706C56C1EB}Prefabs/Structures/Industrial/LightTower.et" {
+ coords 4683.723 13.027 5123.507
+ angles 0 -12.925 0
+}

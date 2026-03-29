@@ -1,0 +1,191 @@
+$grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et" {
+ WP_Factory {
+  components {
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 2200
+     }
+    }
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{621EB97024DABA89}" {
+    m_eShape RECTANGLE
+    m_vResolution 60
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRadius 220
+    m_bDisableWhenUnusedAsHQ 1
+    m_sBaseName "Фабрика"
+    m_sBaseNameUpper "Factory"
+    m_sMapLocationName "Фабрика"
+   }
+  }
+  coords 2247.335 39.617 6596.5
+  angles -0.871 13.468 -0.208
+  scale 0.882
+ }
+ WP_Colhoz {
+  components {
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 1600
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRadius 100
+    m_bDisableWhenUnusedAsHQ 1
+    m_sBaseName "Колхоз"
+    m_sBaseNameUpper ""
+   }
+  }
+  coords 3021.175 29.982 5258.185
+ }
+ WP_School {
+  components {
+   SCR_MilitaryBaseAreaMeshComponent "{621EB97024DABA89}" {
+    m_eShape RECTANGLE
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRadius 80
+    m_sBaseName "Школа"
+    m_sBaseNameUpper "School"
+    m_sMapLocationName "Школа"
+   }
+  }
+  coords 4658.547 36.072 5131.746
+  angles 0 -12.142 0
+ }
+ WP_Constraction {
+  components {
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 1700
+     }
+    }
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{621EB97024DABA89}" {
+    m_eShape RECTANGLE
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRadius 160
+    m_bDisableWhenUnusedAsHQ 1
+    m_sBaseName "Стройка"
+    m_sBaseNameUpper "Constraction"
+    m_sMapLocationName "Стройка"
+   }
+  }
+  coords 6244.748 45.543 4735.289
+  angles 0 6.835 0
+ }
+ WP_Mogilnic {
+  components {
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 2200
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRadius 100
+    m_bDisableWhenUnusedAsHQ 1
+    m_sBaseName "Могильник"
+   }
+  }
+  coords 4153.214 62.431 7259.387
+  angles 0 0 1.79
+ }
+ WP_Blockpost2 {
+  components {
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 1800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRadius 50
+    m_bDisableWhenUnusedAsHQ 1
+    m_sBaseName "Северный лагерь"
+    m_sBaseNameUpper ""
+   }
+  }
+  coords 2988.77 55.205 8750.214
+ }
+ WP_Ferma {
+  components {
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 1800
+     }
+    }
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{621EB97024DABA89}" {
+    m_eShape RECTANGLE
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRadius 100
+    m_bDisableWhenUnusedAsHQ 1
+    m_sBaseName "Ферма"
+   }
+  }
+  coords 7038.672 74.952 5919.119
+ }
+ WP_GasStation {
+  components {
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 2200
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRadius 90
+    m_bDisableWhenUnusedAsHQ 1
+    m_sBaseName "Заправка"
+   }
+  }
+  coords 5069.824 66.594 8256.82
+ }
+ WP_Poselok {
+  components {
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRadius 45
+    m_bDisableWhenUnusedAsHQ 1
+    m_sBaseName "Поселок"
+   }
+  }
+  coords 7575.116 72.099 7706.827
+ }
+ WP_Sklad {
+  components {
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 1700
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRadius 100
+    m_bDisableWhenUnusedAsHQ 1
+    m_sBaseName "СКЛАД"
+   }
+  }
+  coords 6124.6 70.267 6982.752
+  angles 0.895 -0.014 -0.895
+ }
+}

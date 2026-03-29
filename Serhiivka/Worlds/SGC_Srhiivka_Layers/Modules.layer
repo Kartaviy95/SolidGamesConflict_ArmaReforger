@@ -1,0 +1,110 @@
+SCR_MapEntity MapEntity1 : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
+ coords 5565.215 35.908 5106.386
+ "Map Geometry Data" "{7BA13C8567700669}World/CIE_Serhiivka_Conflict.topo"
+ "Satellite background image" "{BFDF619C969E029D}World/Serhiivka_BG_Conflict_1.edds"
+}
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{68F94DDADDB17F9E}" {
+     NavmeshFile "{04D0EEF185D0A158}NavMesh/Serhiivka_soldiers.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{A933A3159B434F08}NavMesh/Serhiivka_BTRlike.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{129CB293F6A84A16}NavMesh/Serhiivka_lowRes.nmn"
+    }
+   }
+  }
+ }
+ coords 5553.031 35.514 5110.046
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "SCR_AIWorld: "\
+   "Configure navigation mesh"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 5553.031 35.546 5109.046
+}
+ScriptedChatEntity : "{0C3F3468F8FFDEB6}Prefabs/MP/Campaign/CampaignMPChatEntityUA.et" {
+ coords 5767.211 35.4 5124.984
+}
+SCR_GameModeCampaign GameMode_Campaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
+ components {
+  SCR_VotingManagerComponent "{5650BB6B6089393A}" {
+   Enabled 0
+  }
+ }
+ coords 5553.031 35.577 5108.046
+ m_iSuppliesReplenishThreshold 2500
+ m_iSupplyDepotIconThreshold 5000
+}
+ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
+ coords 5775.868 35.684 5135.552
+}
+RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
+ coords 5813.036 36.166 5116.365
+}
+SCR_CampaignFactionManager CampaignFactionManager : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager.et" {
+ coords 5553.031 35.467 5111.046
+ Factions {
+  SCR_CampaignFaction "{50B30C3AF4BFD934}" {
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C68A0E9AFE1E631}" {
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{5D4A87E86D216210}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{66AD5AA8F67A78E3}" {
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{5D4A87E86D216249}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{5D4A87E86D216241}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A87E86D216240}" {
+           m_eRequiredRank RENEGADE
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "CampaignFactionManager: "\
+   "Make sure one faction is non-playable to use for Independent units."
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+SCR_LoadoutManager CampaignLoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
+ coords 5553.031 35.388 5113.046
+}

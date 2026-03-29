@@ -1,0 +1,36 @@
+$grp GenericEntity : "{1773A84CBD5C2F43}Prefabs/Compositions/Slotted/SlotFlatSmall/AmmoStorage_S_USSR_01_HQ.et" {
+ {
+  coords 10018.689 73.937 6934.586
+  angles 0 -161.916 0
+ }
+ {
+  coords 10030.92 73.937 6930.115
+  angles 0 -161.916 0
+ }
+ {
+  coords 10008.902 73.872 6929.165
+  angles 0 106.299 0
+ }
+ {
+  coords 9931.258 73.96 6875.8
+  angles 0 17.328 0
+ }
+}
+GenericEntity : "{2D819F20BF6311A8}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/VehicleService_USSR_Small_NoAffiliation.et" {
+ coords 9951.637 73.938 6941.332
+ angles 0 -165 0
+}
+GenericEntity : "{4510C273B794F3AA}Prefabs/Compositions/Slotted/SlotFlatMedium/VehicleMaintenance_M_Conflict_USSR_01.et" {
+ coords 9952.592 73.938 6940.741
+ angles 0 -176.134 0
+}
+$grp GenericEntity : "{525C793E1943EA06}Prefabs/Compositions/Slotted/SlotFlatLarge/Helipad_L_Conflict_USSR_01.et" {
+ {
+  coords 9946.703 73.937 6868.522
+  angles 0 20.069 0
+ }
+ {
+  coords 9914.507 73.938 6879.505
+  angles 0 20.069 0
+ }
+}
