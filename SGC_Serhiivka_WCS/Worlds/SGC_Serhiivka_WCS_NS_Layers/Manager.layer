@@ -16,6 +16,7 @@ SCR_GameModeCampaign GameMode_Campaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Con
  m_iStartingSuppliesInterval 100
  m_iSupplyDepotIconThreshold 5000
  m_bSuppliesAutoRegenerationEnabled 1
+ m_eStartingRank CORPORAL
 }
 ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
  coords 3973.983 118.816 3973.91
@@ -25,6 +26,47 @@ RadioManagerEntity RadioManager : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/Radio
 }
 SCR_CampaignFactionManager CampaignFactionManager : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager.et" {
  coords 3973.983 118.861 3971.91
+ Factions {
+  SCR_CampaignFaction "{50B30C3AF4BFD934}" {
+   m_aGroupRolePresetConfigs {
+    SCR_GroupRolePresetConfig "{61B0889162E62027}" {
+     m_eRequiredRank PRIVATE
+    }
+    SCR_GroupRolePresetConfig "{631F062D4EB2C956}" {
+     m_iGroupSize 2
+     m_eRequiredRank RENEGADE
+    }
+    SCR_GroupRolePresetConfig "{631EECB195B8DA90}" {
+     m_eRequiredRank SERGEANT
+    }
+    SCR_GroupRolePresetConfig "{631EECB1EFF9CFB0}" {
+     m_eRequiredRank SERGEANT
+    }
+    SCR_GroupRolePresetConfig "{631EECB11AB76AEC}" {
+     m_eRequiredRank CORPORAL
+    }
+   }
+  }
+  SCR_CampaignFaction "{50B30C3ADB052C80}" {
+   FactionColor 0.1563 0.2734 0.625 1
+   UIInfo SCR_FactionUIInfo "{528C961236B7DCD3}" {
+    Name "US Army"
+    Icon "{A73947B37A287314}UI/Textures/Flags/flag_us_ca.edds"
+    m_sNameUpper "US Army"
+   }
+   m_sFactionFlag "{A73947B37A287314}UI/Textures/Flags/flag_us_ca.edds"
+   m_FactionFlagMaterial "{DD580AE49B51FA04}Assets/Props/Furniture/FlagDecorative_01/Data/FlagDecorative_01_flag_USA.emat"
+  }
+  SCR_CampaignFaction "{56F0C3A6336375DC}" {
+   UIInfo SCR_FactionUIInfo "{5570936866E0AD08}" {
+    Icon "{E98729311E447624}Images/SolidGames_3.edds"
+   }
+   m_bShowInWelcomeScreenIfNonPlayable 0
+   m_sFactionFlag "{436747EAAC14905F}Images/SolidGames_1.edds"
+  }
+  SCR_Faction "{60DCF47AEF40BD72}" : "{3FA20B01D950D31F}Configs/Factions/CIV.conf" {
+  }
+ }
 }
 BasePreloadManager PreloadManager_Campaign : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
  coords 3973.983 118.816 3973.91
